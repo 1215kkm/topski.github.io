@@ -1,0 +1,10 @@
+/* reset */
+* {margin: 0; padding: 0; }
+li {list-style: none;}
+a {color: #333; text-decoration: none;}
+fieldset {border:0}
+legend {font-size: 0; color: transparent; text-indent: -9999px; width: 0; height: 0; overflow: hidden; position: absolute; left: -9999px;}
+/* img {vertical-align: top;} */
+
+
+.autoH:after {content: ""; display: block; clear: both;}

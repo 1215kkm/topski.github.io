@@ -1,0 +1,4 @@
+.centerbox {padding: 0 20px;}
+
+header nav:after {display: none;}
+header nav .gnb li {font-size: 18px;}

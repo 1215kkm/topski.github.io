@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>탑보드스키</title>
+    <link rel="stylesheet" href="css/style.css?v231110">
+    <script src="script/jquery-3.7.0.min.js"></script>
+    <script src="script/action.js"></script>
+
+    <!-- 필수는 og 태그 -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://탑보드스키.com">
+    <meta property="og:title" content="탑보드스키">
+    <meta property="og:image" content="images/open.jpg">
+    <meta property="og:description" content="지산리조트, 스키 보드 용품, 대여, 예약">
+    <meta property="og:site_name" content="탑보드스키">
+</head>
+<body>
+    <header>
+        <div class="centerbox">
+            <h1><a href="/"><img src="images/logo.png" alt=""></a></h1>
+            <nav>
+                <ul class="gnb">
+                    <li><a href="sub01.html">홈페이지 메인</a></li>
+                    <li><a href="sub02.html">렌탈 요금안내</a></li>
+                    <li><a href="sub03.html">강습 요금안내</a></li>
+                    <li><a href="sub04.html">탑보드스키 용품</a></li>
+                    <li><a href="sub05.html">공지사항</a></li>
+                </ul>
+            </nav>
+            <div class="mobile_menu mo">
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <div id="visual">
+        <div class="bg1"></div>
+        <div class="bg2"></div>
+        <div class="bg3"></div>
+        <div class="centerbox">
+            <div class="text_box">
+                <strong>
+                    <img src="images/main_text1.png" alt="스키를 간지나게">
+                </strong>
+                <p><img src="images/main_text2.png" alt="탑보드스키와 함께"></p>
+                <p><img src="images/main_text3.png" alt="스피디한 스키를"></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="section_box">
+        <section id="section1">
+            <div class="centerbox">
+                <h2><strong>01</strong>
+                    <span>탑보드스키</span>
+                    <span>용품</span>
+                </h2>
+
+                <div class="contbox">
+                    <ul class="snb">
+                        <li class="on"><a href="#">스키보드</a></li>
+                        <li><a href="#">의류</a></li>
+                    </ul>
+                    <div class="cont">
+                        <div class="ski"></div>
+                        <div class="clothes"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="section2">
+            <span class="bg_top"></span>
+            <div class="centerbox">
+                <h2><strong>02</strong>
+                    <span>예약문의</span>
+                </h2>
+
+                <div class="contbox">
+                    <div class="phone">
+                        <em>010-7712-3951</em>
+                        <strong>탑보드스키</strong>
+                    </div>
+                    <div class="content">
+                        <h3>공지사항<a href="#">더보기 +</a></h3>
+                        <article></article>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg_section2">
+                <div class="bg1">
+                    <img src="images/section2_img1.png" alt="">
+                </div>
+                <div class="bg2">
+                    <img src="images/section2_img2.png" alt="">
+                </div>
+                <div class="bg3">
+                    <img src="images/section2_img3.png" alt="">
+                </div>
+            </div>
+        </section>
+
+
+        <section id="section3">
+            <div class="bg_section3">
+                <div class="bg1">
+                    <img src="images/section3_img1.png" alt="">
+                </div>
+                <div class="bg2">
+                    <img src="images/section3_img2.png" alt="">
+                </div>
+            </div>
+            <div class="centerbox">
+                <h2><strong>03</strong>
+                    <span>오시는길</span>
+                </h2>
+                <div class="contbox">
+                    <!--
+                        * 카카오맵 - 약도서비스
+                        * 한 페이지 내에 약도를 2개 이상 넣을 경우에는
+                        * 약도의 수 만큼 소스를 새로 생성, 삽입해야 합니다.
+                    -->
+                    <!-- 1. 약도 노드 -->
+                    <div id="daumRoughmapContainer1699536102547" class="root_daum_roughmap root_daum_roughmap_landing" style="width:100%"></div>
+
+                    <!-- 2. 설치 스크립트 -->
+                    <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+                    <!-- 3. 실행 스크립트 -->
+                    <script charset="UTF-8">
+                        new daum.roughmap.Lander({
+                            "timestamp" : "1699536102547",
+                            "key" : "2grtu",
+                            "mapWidth" : "",
+                            "mapHeight" : "450"
+                        }).render();
+                    </script>
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <h4>ADDRESS</h4>
+                                <p>경기도 이천시 마장면 지산로 86, 골든스포츠</p>
+                            </li>
+                            <li>
+                                <h4>TEL</h4>
+                                <p>010-7712-3951</p>
+                            </li>
+                            <li class="car">
+                                <h4>DIRECTIONS</h4>
+                                <ul>
+                                    <li>
+                                        <p class="tit">자가용 이용시</p>
+                                        <div class="cont">서울역 → 영동고속도로 → 골든스포츠<br><span>총1시간 30분 소요</span></div>
+                                    </li>
+                                    <li>
+                                        <p class="tit">시내버스 이용시</p>
+                                        <div class="cont">이천역 승차 → "연수원"에서 하차<br><span>총40분 소요</span></div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+                
+            <div class="bg_top">
+                <div class="bg1"></div>
+            </div>
+
+        </section>
+    </div>
+
+    <footer>
+        <article>
+            <div class="centerbox">
+                <h1><img src="images/logo_footer.png" alt=""></h1>
+                <address>
+                    경기도 이천시 마장면 지산로86, 골든 스포츠
+                    사업자등록번호 : 310-15-06619
+                    대표 : 황주성
+                    TEL : 031-638-1555
+                </address>
+            </div>
+        </article>
+    </footer>
+</body>
+</html>
