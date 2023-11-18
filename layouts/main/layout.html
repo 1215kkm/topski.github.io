@@ -1,0 +1,228 @@
+<? include "include/header.html" ?>
+
+
+
+<!--@if(in_array('관리그룹', $logged_info->group_list) || in_array('운영자', $logged_info->group_list))-->
+                    <div class="admin_connecting">운영자<br>접속중
+                        <a href="{getUrl('act','dispMemberLogout')}">로그아웃</a>
+                    </div>
+                    <div class="today_count_sm">
+                        <img class="zbxe_widget_output" widget="counter_status" skin="default" />>
+                        <a href="/admin" target="_blank" style="display: block; ">▶ admin</a>
+                    </div>
+<!--@end-->
+
+
+
+    <div id="visual">
+        <div class="bg1"></div>
+        <div class="bg2"></div>
+        <div class="bg3"></div>
+        <div class="centerbox">
+            <div class="text_box">
+                <strong>
+                    <img src="/images/main_text1.png" alt="스키를 간지나게">
+                </strong>
+                <p><img src="/images/main_text2.png" alt="탑보드스키와 함께"></p>
+                <p><img src="/images/main_text3.png" alt="스피디한 스키를"></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="section_box">
+        <section id="section1">
+            <div class="centerbox">
+                <h2><strong>01</strong>
+                    <span>탑보드스키</span>
+                    <span>갤러리</span>
+                </h2>
+
+                <div class="contbox">
+                    <!-- <ul class="snb">
+                        <li class="on"><a href="#">스키보드</a></li>
+                        <li><a href="#">의류</a></li>
+                    </ul> -->
+                    <div class="cont">
+                        <div class="ski">
+							<img class="zbxe_widget_output" widget="content" skin="default" colorset="white" content_type="document" module_srls="149" list_type="gallery" tab_type="none" markup_type="list" list_count="3" cols_list_count="3" page_count="1" content_cut_size="30" option_view="thumbnail,title" show_browser_title="N" show_comment_count="N" show_trackback_count="N" show_category="N" show_icon="Y" duration_new="140" order_target="regdate" order_type="desc" thumbnail_type="crop" thumbnail_width="350" thumbnail_height="350" />
+						</div>
+                        <div class="clothes"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="section2">
+            <span class="bg_top"></span>
+            <div class="centerbox">
+                <h2><strong>02</strong>
+                    <span>예약문의</span>
+                </h2>
+
+                <div class="contbox">
+                    <div class="phone">
+                        <em>010-7712-3951</em>
+                        <strong>탑보드스키</strong>
+                    </div>
+                    <div class="content">
+                        <h3>공지사항<a href="#">더보기 +</a></h3>
+                        <article>
+							<img class="zbxe_widget_output" widget="content" skin="default" colorset="white" content_type="document" module_srls="133" list_type="normal" tab_type="none" markup_type="list" list_count="4" page_count="1" option_view="title,regdate" show_browser_title="N" show_comment_count="N" show_trackback_count="N" show_category="N" show_icon="Y" duration_new="140" order_target="regdate" order_type="desc" thumbnail_type="crop" />
+						</article>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg_section2">
+                <div class="bg1">
+                    <img src="/images/section2_img1.png" alt="">
+                </div>
+                <div class="bg2">
+                    <img src="/images/section2_img2.png" alt="">
+                </div>
+                <div class="bg3">
+                    <img src="/images/section2_img3.png" alt="">
+                </div>
+            </div>
+        </section>
+
+
+        <section id="section3">
+            <div class="bg_section3">
+                <div class="bg1">
+                    <img src="/images/section3_img1.png" alt="">
+                </div>
+                <div class="bg2">
+                    <img src="/images/section3_img2.png" alt="">
+                </div>
+            </div>
+            <div class="centerbox">
+                <h2><strong>03</strong>
+                    <span>오시는길</span>
+                </h2>
+                <div class="contbox">
+                    <!--
+                        * 카카오맵 - 약도서비스
+                        * 한 페이지 내에 약도를 2개 이상 넣을 경우에는
+                        * 약도의 수 만큼 소스를 새로 생성, 삽입해야 합니다.
+                    -->
+                    <!-- 1. 약도 노드 -->
+                    <div id="daumRoughmapContainer1700124240257" class="root_daum_roughmap root_daum_roughmap_landing" style="width: 100%;"></div>
+
+                    <!-- 2. 설치 스크립트 -->
+                    <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+                    <!-- 3. 실행 스크립트 -->
+                    <script charset="UTF-8">
+                        new daum.roughmap.Lander({
+                            "timestamp" : "1700124240257",
+                            "key" : "2gufv",
+                            "mapWidth" : "",
+                            "mapHeight" : "450"
+                        }).render();
+                    </script>
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <h4>ADDRESS</h4>
+                                <p>경기도 이천시 마장면 지산로 16, 탑보드스키</p>
+                            </li>
+                            <li>
+                                <h4>TEL</h4>
+                                <p>010-7712-3951</p>
+                            </li>
+                            <li class="car">
+                                <h4>DIRECTIONS</h4>
+                                <ul>
+                                    <li>
+                                        <p class="tit">자가용 이용시</p>
+                                        <div class="cont">서울역 → 영동고속도로 → 탑보드스키<br><span>총1시간 30분 소요</span></div>
+                                    </li>
+                                    <li>
+                                        <p class="tit">시내버스 이용시</p>
+                                        <div class="cont">이천역 승차 → "이평2리"에서 하차<br><span>총40분 소요</span></div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+                
+            <div class="bg_top">
+                <div class="bg1"></div>
+            </div>
+
+        </section>
+    </div>
+
+    
+
+    <script>
+	$(document).ready(function(){
+	  $(window).scroll(function(){
+		let scrT = $(this).scrollTop();
+		let winH = $(this).height();
+		let winW = $(this).width();
+		let sec2Top = $('#section2').offset().top;
+		let sec3Top = $('#section3').offset().top;
+
+		if(winW >=1200){
+		  if(scrT < 1000){
+			$('#visual .bg1').css({backgroundPositionY:scrT/3})
+			$('#visual .bg3').css({left: (50-scrT/50)+'%', top: (16+scrT/30)+'%'})
+		  }
+		  if(scrT >= sec2Top - winH/2){
+			$('#section2').addClass('on')
+		  } 
+
+		  if(scrT >= sec3Top - winH/2){
+			$('#section3').addClass('on')
+		  }
+		}
+
+	  })
+
+
+
+	  $('#section1 .snb li').click(function(){
+		let snbIndex = $(this).index();
+		$(this).addClass('on').siblings().removeClass()
+		$('#section1 .cont > div').eq(snbIndex).show().siblings().hide();
+		return false
+	  })
+
+
+
+	  $('.mobile_menu').click(function(){
+		$('header nav').fadeToggle().toggleClass('on');
+		$(this).toggleClass('on')
+	  });
+
+
+
+			
+		$('header nav a').each(function(){
+			let navHref = $(this).attr('href')
+			let navText = $(this).text()
+			
+			let url = window.location.href;		
+			let	urlSplit = url.split('=')
+			let	pageUrl = urlSplit[1]
+
+			if(url.indexOf(navHref) > -1){
+				$(this).css({color:'red'});
+				$('#section_sub h2.title').text(navText);
+				$('#visual_sub').css({backgroundImage:'url(/images/'+pageUrl+'.jpg)'})
+			}
+		})
+	})
+</script>
+
+
+
+
+<? include "include/footer.html" ?>
